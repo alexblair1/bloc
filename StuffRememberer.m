@@ -41,7 +41,6 @@
 
 - (CGFloat) floatYouShouldRemember {
     return self.floatRemembered;
-    return 0.0f;
 }
 
 @end
