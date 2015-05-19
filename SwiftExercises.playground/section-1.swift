@@ -111,5 +111,4 @@ let cerealArray = ["Golden Grahams", "Cheerios", "Trix", "Cap'n Crunch OOPS! All
 var cerealArrayAlpha = sorted(cerealArray, { (s1: String, s2: String) -> Bool in return s1 < s2 })
 cerealArrayAlpha
 
-// Non closure sort - so easy!
 var sortedNames = sorted(cerealArray, <)
